@@ -1,4 +1,4 @@
-const enLang = {
+const itLang = {
     error: 'Si è verificato un errore durante la elaborazione del tuo comando.',
     commandDisabled: 'Questo comando è attualmente disabilitato.',
     //avatar.js
