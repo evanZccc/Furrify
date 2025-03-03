@@ -1,4 +1,4 @@
-const itLang = {
+const enLang = {
     error: 'Si è verificato un errore durante la elaborazione del tuo comando.',
     commandDisabled: 'Questo comando è attualmente disabilitato.',
     //avatar.js
@@ -689,4 +689,4 @@ const itLang = {
    kstFieldName: ':flag_kr: Seul (KST)',
    worldClockErrorMessage: 'Si è verificato un errore nel recupero dei dati dell\'orologio mondiale.',
   };
-  module.exports = itLang;
+  module.exports = enLang;
