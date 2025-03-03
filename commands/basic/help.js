@@ -74,8 +74,8 @@ module.exports = {
                     title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
-                        `**Bot Developer:** kz3\n` +
-                        `**Bot Version:** 1.2.0\n` +
+                        `**Bot Developer:** Tua mamma\n` +
+                        `**Bot Version:** 1.0.4\n` +
                         `**Total Servers:** ${totalServers}\n` +
                         `**Total Members:** ${totalMembers}\n` +
                         `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n` +
@@ -85,7 +85,7 @@ module.exports = {
                     ],
                     color: "#3498db",
                     author: {
-                        name: 'All In One',
+                        name: 'Furrify',
                         iconURL: "https://cdn.discordapp.com/attachments/1329962558744035348/1330040810846031973/1.jpg?ex=678c8888&is=678b3708&hm=8e2a4ce280e7808f371b84299330f7b536ad57c1763bcb99c510a3c0ce375fd4&",
                         url: "https://discord.gg/2nB9Vney5X"
                     }
@@ -172,8 +172,8 @@ module.exports = {
                     title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
-                        `**Bot Developer:** kz3\n` +
-                        `**Bot Version:** 1.2.0\n` +
+                        `**Bot Developer:** Tua mamma\n` +
+                        `**Bot Version:** 1.0.4\n` +
                         `**Total Servers:** ${totalServers}\n` +
                         `**Total Members:** ${totalMembers}\n` +
                         `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n` +
@@ -183,7 +183,7 @@ module.exports = {
                     ],
                     color: "#3498db",
                     author: {
-                        name: 'All In One',
+                        name: 'Furrify',
                         iconURL: "https://cdn.discordapp.com/attachments/1329962558744035348/1330040810846031973/1.jpg?ex=678c8888&is=678b3708&hm=8e2a4ce280e7808f371b84299330f7b536ad57c1763bcb99c510a3c0ce375fd4&",
                         url: "https://discord.gg/2nB9Vney5X"
                     }
