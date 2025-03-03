@@ -7,7 +7,7 @@ module.exports = {
   
         const activities = [
             { name: 'Purry Forn', type: ActivityType.Watching },
-            { name: 'Role Play', type: ActivityType.Playing },
+            { name: 'Roleplay', type: ActivityType.Playing },
             { name: 'Furrify', type: ActivityType.Listening },
         ];
 
