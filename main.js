@@ -235,7 +235,7 @@ client.distube = new DisTube(client, {
         new YtDlpPlugin(),
     ],
 });
-console.log('\x1b[35m[ MUSIC 1 ]\x1b[0m', '\x1b[32mFurryfy Music System Active ✅\x1b[0m');
+console.log('\x1b[35m[ MUSIC 1 ]\x1b[0m', '\x1b[32mFurrify Music System Active ✅\x1b[0m');
 
 client.distube
     .on('playSong', async (queue, song) => {
@@ -257,7 +257,7 @@ client.distube
                         url: 'attachment://musicCard.png' 
                     },
                     footer: {
-                        text: 'Furryfy Player',
+                        text: 'Furrify Player',
                         icon_url: musicIcons.footerIcon 
                     },
                     timestamp: new Date().toISOString() 
@@ -278,7 +278,7 @@ client.distube
                     color: 0xDC92FF,
                     description: `**${song.name}** \n- Duration: **${song.formattedDuration}**\n- Added by: ${song.user}`,
                     footer: {
-                        text: 'Furryfy Player',
+                        text: 'Furrify Player',
                         icon_url: musicIcons.footerIcon 
                     },
                     author: {
