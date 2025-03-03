@@ -36,7 +36,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.skipNoSongsMessage);
 
                 return interaction.reply({ embeds: [noSongsEmbed] });
@@ -51,7 +51,7 @@ module.exports = {
                     iconURL: musicIcons.skipIcon,
                     url: "https://discord.gg/2nB9Vney5X"
                 })
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })  
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })  
                 .addFields(
                     { name: lang.skipTitleField, value: nextSong.name },
                     { name: lang.skipDurationField, value: nextSong.formattedDuration }
@@ -69,7 +69,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })  
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoQueueMessage);
 
                 await interaction.reply({ embeds: [noQueueEmbed] });
@@ -81,7 +81,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })  
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoUpNextMessage);
 
                 await interaction.reply({ embeds: [noUpNextEmbed] });

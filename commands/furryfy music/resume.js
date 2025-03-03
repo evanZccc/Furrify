@@ -33,7 +33,7 @@ module.exports = {
                     iconURL: musicIcons.pauseresumeIcon,
                     url: "https://discord.gg/2nB9Vney5X"
                 })
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                 .setDescription(lang.resumeSuccessMessage);
 
             if (interaction.isCommand && interaction.isCommand()) {
@@ -53,7 +53,7 @@ module.exports = {
                             iconURL: musicIcons.wrongIcon,
                             url: "https://discord.gg/2nB9Vney5X"
                         })
-                        .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeNoQueueMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {
@@ -69,7 +69,7 @@ module.exports = {
                             iconURL: musicIcons.wrongIcon,
                             url: "https://discord.gg/2nB9Vney5X"
                         })
-                        .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeNotPausedMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {
@@ -85,7 +85,7 @@ module.exports = {
                             iconURL: musicIcons.wrongIcon,
                             url: "https://discord.gg/2nB9Vney5X"
                         })
-                        .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                        .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeAlreadyResumedMessage);
 
                     if (interaction.isCommand && interaction.isCommand()) {

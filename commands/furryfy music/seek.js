@@ -64,7 +64,7 @@ module.exports = {
                     iconURL: musicIcons.correctIcon,
                     url: "https://discord.gg/2nB9Vney5X"
                 })
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                 .setDescription(lang.seekSuccessMessage.replace('%timestamp%', this.formatTimestamp(seekSeconds)));
 
             await source.channel.send({ embeds: [seekEmbed] });
@@ -80,7 +80,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.seekNoQueueMessage);
 
                 await source.channel.send({ embeds: [noQueueEmbed] });

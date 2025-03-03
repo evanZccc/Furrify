@@ -24,7 +24,7 @@ module.exports = {
                     iconURL: musicIcons.wrongIcon,
                     url: "https://discord.gg/2nB9Vney5X"
                 })
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })   
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })   
                 .setDescription(lang.queueNoSongsMessage);
 
             if (interaction.isCommand && interaction.isCommand()) {
@@ -41,7 +41,7 @@ module.exports = {
                 iconURL: musicIcons.beatsIcon,
                 url: "https://discord.gg/2nB9Vney5X"
             })
-            .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+            .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
             .setDescription(`${lang.queueSongs} ${queue.songs.length}`)
             .setTimestamp();
 

@@ -34,7 +34,7 @@ module.exports = {
                     iconURL: musicIcons.stopIcon,
                     url: "https://discord.gg/2nB9Vney5X"
                 })
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })   
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })   
                 .setDescription(lang.stopSuccessMessage);
 
             await interaction.reply({ embeds: [stoppedEmbed] });
@@ -49,7 +49,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopNoQueueMessage);
 
                 await interaction.reply({ embeds: [noQueueEmbed] });
@@ -61,7 +61,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })   
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopAlreadyStoppedMessage);
 
                 await interaction.reply({ embeds: [alreadyStoppedEmbed] });

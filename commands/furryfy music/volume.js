@@ -55,7 +55,7 @@ module.exports = {
                         iconURL: musicIcons.wrongIcon,
                         url: "https://discord.gg/2nB9Vney5X"
                     })
-                    .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon })
+                    .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.volumeNoSongMessage);
 
                 return source.channel.send({ embeds: [noSongEmbed] });
@@ -71,7 +71,7 @@ module.exports = {
                     url: "https://discord.gg/2nB9Vney5X"
                 })
                 .setDescription(lang.volumeSuccessMessage.replace('{volumeLevel}', volumeLevel))
-                .setFooter({ text: 'Furryfy Player', iconURL: musicIcons.footerIcon });
+                .setFooter({ text: 'Furrify Player', iconURL: musicIcons.footerIcon });
 
             return source.channel.send({ embeds: [volumeEmbed] });
         } catch (error) {
