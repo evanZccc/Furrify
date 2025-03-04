@@ -71,7 +71,7 @@ const enLang = {
     githubLink: "https://github.com",
     replitLink: "https://.com",
     youtubeLink: "https://www.youtube.com",
-    supportIconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6638ae28&is=66375ca8&hm=13e4a1b91a95b2934a39de1876e66c11711c7b30ac1a91c2a158f2f2ed1c2fc6&',
+    supportIconURL: 'https://cdn.discordapp.com/attachments/1333860969344008323/1346273446966853792/giphy.gif?ex=67c7965a&is=67c644da&hm=99c707a0d194065f244d0076f084a1ea875ead2aa61ec31149c9da639f3b9f16&',
     supportImageURL: 'https://cdn.discordapp.com/attachments/1329962558744035348/1330039994521485392/loona-furry.gif?ex=678c87c5&is=678b3645&hm=11c06ec3d41f74844da29026da6c21d01bc53e840eaee40fb75ba4e5c55a8e1a&',
     supportDescriptionTitle: "Entra nel nostro server per supportarci!",
     followUsOn: "Seguici su",
