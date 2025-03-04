@@ -19,17 +19,17 @@ module.exports = {
                 url: supportServerLink
             })
             .setDescription(`
-                ➡️ **${lang.supportDescriptionTitle}:**
-                - ${lang.discord} - ${supportServerLink}
-                
-                ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
-                - ${lang.youtube} - ${youtubeLink}
-            `)
-            .setImage(lang.supportImageURL)
-            .setTimestamp();
+**${lang.supportDescriptionTitle}:**
+- ${lang.discord}: ${supportServerLink}
 
-        await interaction.reply({ embeds: [embed] });
+**${lang.followUsOn}:**
+- ${lang.github}: ${githubLink}
+- ${lang.replit}: ${replitLink}
+- ${lang.youtube}: ${youtubeLink}
+`)
+.setImage(lang.supportImageURL)
+.setTimestamp();
+
+await interaction.reply({ embeds: [embed] });
     },
 };
