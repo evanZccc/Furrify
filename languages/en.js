@@ -644,8 +644,8 @@ const enLang = {
     assassinateTitle: '🔫 Assassinio',
     // howgay.js
     howgayDescription: 'Calcola il tuo tasso di gaytudine.',
-    howgayTitle: '🏳️‍🌈 Tasso di Gaytudine',
-    howgayDescriptionText: 'Sei',
+    howgayTitle: 'Gaytudine 🌈',
+    howgayDescriptionText: 'Gay al',
     // say.js
     sayDescription: 'Elimina il tuo messaggio e ne invia un altro.',
     sayNoTextError: 'Devi fornire un testo da inviare!',
