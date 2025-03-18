@@ -63,7 +63,7 @@ module.exports = async (client) => {
                 const randomImage = getRandomImage(data.welcomeImages);
                 
                
-                const shortTitle = truncateUsername(`Welcome ${suffix}`, 15);
+                const shortTitle = truncateUsername(`Welcome`, 15);
 
                 const welcomecard = new Wcard()
                     .setName(userName)
