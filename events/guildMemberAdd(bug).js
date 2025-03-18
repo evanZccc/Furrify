@@ -63,7 +63,7 @@ module.exports = async (client) => {
                 const randomImage = getRandomImage(data.welcomeImages);
                 
                 // Keep the title short and sweet
-                const shortTitle = `Welcome ${suffix}`;
+                const shortTitle = `Welcome`;
 
                 const welcomecard = new Wcard()
                     .setName(userName)
