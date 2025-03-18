@@ -7,7 +7,6 @@ const { DisTube } = require('distube');
 const { YtDlpPlugin } = require('@distube/yt-dlp');
 const { SpotifyPlugin } = require('@distube/spotify');
 const { SoundCloudPlugin } = require('@distube/soundcloud');
-const {  Dynamic } = require('musicard'); 
 const config = require('./config.json');
 const colors = require('./UI/colors/colors');
 const loadLogHandlers = require('./logHandlers');
@@ -304,9 +303,6 @@ client.distube
         }
     });
 
-
-
-    const data = require('./UI/banners/musicard'); 
 
     async function generateMusicCard(song) {
         try {
