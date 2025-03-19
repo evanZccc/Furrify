@@ -76,7 +76,7 @@ module.exports = async (client) => {
                 const attachment = new AttachmentBuilder(card, { name: 'welcome.png' });
 
                 const embed = new EmbedBuilder()
-                    .setTitle("**Benvenuro su Furrytalia!**")
+                    .setTitle("**Benvenuto su Furrytalia!**")
                     .setDescription(`${member}, sei il **${memberCount}${suffix}** membro del server!`)
                     .setColor("#d108b0")
                     .setThumbnail(serverIcon)
